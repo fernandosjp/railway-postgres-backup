@@ -25,6 +25,7 @@ FROM alpine:latest
 # Note: Alpine supports multiple PostgreSQL client versions side by side
 RUN apk add --no-cache \
     postgresql17-client \
+    postgresql18-client \
     ca-certificates \
     tzdata
 
